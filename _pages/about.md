@@ -17,42 +17,73 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# 👋 Hi! I'm Zhuoyang(Alex) Chen
+{: .typing-title}
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am an incoming MSE Robotics student at the **University of Pennsylvania**. I earned my B.S. in Computer Engineering from the **University of Michigan**, and my B.S.E. in Mechanical Engineering from **Shanghai Jiao Tong University**.
 
+I am currently working with Prof. [Yutong Ban](https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/75745/) as a research intern on dexterous manipulation, and with [Jiahang Cao](https://sagecao1125.github.io/) on robot learning for manipulation. Previously, I worked as an undergraduate researcher with Prof. [Shai Revzen](https://eecs.engin.umich.edu/people/revzen-shai/) on bio-inspired robotics, and with Prof. [Ram Vasudevan](https://me.engin.umich.edu/people/faculty/ramanarayan-vasudevan/) as a [SURE](https://sure.engin.umich.edu/) undergraduate research assistant on mobile manipulation.
 
-# 🔥 News
+My research interests are **robot learning for dexterous / mobile manipulation** and **bio-inspired locomotion**. I am **actively seeking PhD positions starting Fall 2027** — feel free to reach out!
+
+<!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📝 Publications 
+# 📝 Publications and Manuscripts
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class='media-stack'><div class="badge">Preprint</div><img src='images/rcp/RCP.png' alt="sym"><img src='images/rcp/workflow.gif' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Unrolling the Action Manifold: Visuomotor Policy Learning via Recursive Cascades](https://sagecao1125.github.io/RCP-Site/static/paper.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Jiahang Cao\*, **Zhuoyang Chen**\*, Kun Wu, Yulin Li, Hongliang Lu, Jiaxu Wang, Jingkai Sun, Qiang Zhang, Jun Ma, Qihao Zheng, Chunfeng Song, Ping Luo, Andrew F. Luo (\*: equal contribution)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://sagecao1125.github.io/RCP-Site/) \| [**Paper**](https://sagecao1125.github.io/RCP-Site/static/paper.pdf)
+- We introduce the **Recursive Cascade Policy (RCP)**, which frames action generation as recursive temporal infilling in explicit action space: a single weight-shared Transformer sketches sparse boundary anchors, then recursively fills the temporal gaps. With only **19M parameters** (under a quarter the size of ACT and Diffusion Policy), RCP achieves superior performance across diverse simulation and real-world robotic tasks.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div class='media-stack'><div class="badge">Bioinspir. Biomim. 2026</div><img src='images/csm/csm_demo_mujoco.gif' alt="sym"><img src='images/csm/csmultipod_diagram.png' alt="sym"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Walking on Rough Terrain with Any Number of Legs](https://doi.org/10.1088/1748-3190/ae9261)
+
+**Zhuoyang Chen**, Xinyuan Wang, Shai Revzen
+
+[**Paper**](https://doi.org/10.1088/1748-3190/ae9261)
+- We present a **multi-legged control architecture** for rough terrain using a segmental robot with 3 actuators for every 2 legs, validated in simulation for 6 to 16 legs. Identical per-segment state machines **bridge the gap between Walknet-like event cascade controllers and CPG-based controllers**: tightly coupling to the ground when present, while producing fictive locomotion when ground contact is missing — a lightweight, adaptive controller for multi-legged robots.
+</div>
+</div>
+
+# 🚀 Selected Projects
+
+<div class='paper-box'><div class='paper-box-image'><div class='media-stack'><div class="badge">Open-Source</div><img src='images/tidybot_ros/tidybot_ros_data_collection.gif' alt="sym"><img src='images/tidybot_ros/tidybot_ros_real.gif' alt="sym"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[tidybot_ros: Mobile Manipulation Platform for Imitation Learning](https://github.com/roahmlab/tidybot_ros)
+
+**Zhuoyang Chen**, Yuandi Huang — ROAHM Lab, University of Michigan ([SURE](https://sure.engin.umich.edu/) program, sponsored by Prof. [Ram Vasudevan](https://me.engin.umich.edu/people/faculty/ramanarayan-vasudevan/))
+
+[**Code**](https://github.com/roahmlab/tidybot_ros) \| [**Poster**](files/SURE_Poster.pdf)
+- An end-to-end **ROS2 stack extending the Tidybot++** holonomic mobile manipulator (Kinova Gen3 arm, powered-caster base, RGBD wrist camera): **MoveIt2** motion planning, **Gazebo / Isaac Sim** simulation, phone teleoperation, and a training-data acquisition pipeline for imitation learning — used to train and deploy Diffusion Policy in simulation and on hardware, and to fine-tune and deploy OpenVLA and π0 / π0.5 on hardware.
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.03* EECS Outstanding Achievement Award (3 recipients per year), University of Michigan.
+- *2023.12 & 2024.12* Excellent Undergraduate Scholarship (Top 10%), Shanghai Jiao Tong University.
+- *2023.12* John Wu and Jane Sun Sunshine Scholarship (Top 6%), Shanghai Jiao Tong University.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.08 - 2028.05 (expected)*, MSE in Robotics, University of Pennsylvania.
+- *2024.08 - 2026.05*, B.S. in Computer Engineering, University of Michigan, Ann Arbor.
+- *2022.09 - 2026.08*, B.S.E. in Mechanical Engineering, Shanghai Jiao Tong University.
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2026.05 - present*, Research Intern, Shanghai Institute for Physical Artificial Intelligence and Robotics (PAIR), Shanghai, China. Advisor: Prof. [Yutong Ban](https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/75745/). Dexterous manipulation and sim2real transfer.
+- *2025.05 - present*, [SURE](https://sure.engin.umich.edu/) Undergraduate Research Assistant, ROAHM Lab, University of Michigan, Ann Arbor. Advisor: Prof. [Ram Vasudevan](https://me.engin.umich.edu/people/faculty/ramanarayan-vasudevan/). Mobile manipulation.

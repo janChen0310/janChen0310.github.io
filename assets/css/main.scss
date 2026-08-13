@@ -47,8 +47,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    margin: 0 -1em;
+    padding: 2em 1em;
+    border-radius: 10px;
+    transition: transform .3s ease, box-shadow .3s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, .15), 0 4px 8px rgba(0, 0, 0, .08);
+    }
+
 
     .paper-box-image{
         justify-content: center;
@@ -106,4 +114,67 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+// Blinking caret for the typed homepage greeting
+.typing-cursor {
+    display: inline-block;
+    margin-left: .06em;
+    font-weight: 300;
+    color: #00369f;
+    animation: typing-blink 1.05s step-end infinite;
+}
+
+@keyframes typing-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+// Entry title (the first paragraph of each card, holding the title link)
+.paper-box .paper-box-text > p:first-child {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+// Overlapped media deck: two media share one grid cell, offset like stacked
+// photos; hovering one raises it above the other
+.paper-box-image .media-stack {
+    display: grid;
+    padding-bottom: 15%;
+
+    .badge {
+        z-index: 3;
+    }
+
+    > img {
+        grid-column: 1;
+        grid-row: 1;
+        width: 88%;
+        transition: transform .35s ease, box-shadow .35s ease, opacity .35s ease;
+    }
+
+    > img:first-of-type {
+        z-index: 2;
+    }
+
+    > img:last-of-type {
+        z-index: 1;
+        transform: translate(13%, 13%) rotate(2deg);
+    }
+
+    &:hover > img:not(:hover) {
+        opacity: .8;
+    }
+
+    > img:first-of-type:hover {
+        z-index: 4;
+        transform: translateY(-2%) scale(1.04);
+        box-shadow: 6px 6px 16px rgba(0, 0, 0, .35);
+    }
+
+    > img:last-of-type:hover {
+        z-index: 4;
+        transform: translate(13%, 13%) rotate(0deg) scale(1.06);
+        box-shadow: 6px 6px 16px rgba(0, 0, 0, .35);
+    }
 }
