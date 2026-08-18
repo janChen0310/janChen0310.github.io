@@ -32,7 +32,7 @@ My research interests are **robot learning for dexterous / mobile manipulation**
 
 # 📝 Publications and Manuscripts
 
-<div class='paper-box'><div class='paper-box-image'><div class='media-stack'><div class="badge">Preprint</div><img src='images/rcp/RCP.png' alt="sym"><img src='images/rcp/workflow.gif' alt="sym"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class='media-stack'><div class="badge">Preprint</div><img src='images/rcp/RCP.png' alt="sym"><img src='images/rcp/main.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Unrolling the Action Manifold: Visuomotor Policy Learning via Recursive Cascades](https://sagecao1125.github.io/RCP-Site/static/paper.pdf)
