@@ -24,7 +24,8 @@ I am an incoming MSE Robotics student at the **University of Pennsylvania**. I e
 
 I am currently working with Prof. [Yutong Ban](https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/75745/) as a research intern on dexterous manipulation, and with [Jiahang Cao](https://sagecao1125.github.io/) on robot learning for manipulation. Previously, I worked as an undergraduate researcher with Prof. [Shai Revzen](https://eecs.engin.umich.edu/people/revzen-shai/) on bio-inspired robotics, and with Prof. [Ram Vasudevan](https://me.engin.umich.edu/people/faculty/ramanarayan-vasudevan/) as a [SURE](https://sure.engin.umich.edu/) undergraduate research assistant on mobile manipulation.
 
-My research interests are **robot learning for dexterous / mobile manipulation** and **bio-inspired locomotion**. I am **actively seeking PhD positions starting Fall 2027** — feel free to reach out!
+My research interests are **robot learning for dexterous / mobile manipulation** and **Sim2Real**. 
+<!-- I am **actively seeking PhD positions starting Fall 2027** — feel free to reach out! -->
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
