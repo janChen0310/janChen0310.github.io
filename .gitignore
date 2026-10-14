@@ -4,3 +4,5 @@ push.sh
 .vscode/
 vendor/
 .bundle/
+# transcripts are kept locally only, never committed or published
+files/TSRPT_*.pdf
