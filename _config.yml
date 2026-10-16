@@ -127,6 +127,11 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # unlisted files: hosted, but kept out of sitemap.xml
+  - scope:
+      path: "files/CoRL_2026_Workshop_Learning_Contact_Residuals_for_In_Hand_Manipulation_Transfer.pdf"
+    values:
+      sitemap: false
 
 
 # Sass/SCSS
