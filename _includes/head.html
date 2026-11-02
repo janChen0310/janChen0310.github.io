@@ -10,8 +10,8 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<!-- For all browsers; ?v=<build time> makes browsers refetch after each deploy -->
+<link rel="stylesheet" href="assets/css/main.css?v={{ site.time | date: '%s' }}">
 
 <meta http-equiv="cleartype" content="on">
 <head>
