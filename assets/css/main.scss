@@ -63,7 +63,7 @@
         display: flex;
         width: 100%;
         order: 2;
-        img {
+        img, video {
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
@@ -136,8 +136,9 @@ h1:before, .anchor:before {
     font-weight: 600;
 }
 
-// Overlapped media deck: two media share one grid cell, offset like stacked
-// photos; hovering one raises it above the other
+// Overlapped media deck: two media (img or video) share one grid cell, offset
+// like stacked photos; hovering one raises it above the other. Front/back are
+// picked by position, not element type, so an img and a video can be mixed.
 .paper-box-image .media-stack {
     display: grid;
     padding-bottom: 15%;
@@ -146,33 +147,34 @@ h1:before, .anchor:before {
         z-index: 3;
     }
 
-    > img {
+    > img, > video {
         grid-column: 1;
         grid-row: 1;
         width: 88%;
+        height: auto;
         transition: transform .35s ease, box-shadow .35s ease, opacity .35s ease;
     }
 
-    > img:first-of-type {
+    > :not(.badge):nth-last-child(2) {
         z-index: 2;
     }
 
-    > img:last-of-type {
+    > :not(.badge):last-child {
         z-index: 1;
         transform: translate(13%, 13%) rotate(2deg);
     }
 
-    &:hover > img:not(:hover) {
+    &:hover > :not(.badge):not(:hover) {
         opacity: .8;
     }
 
-    > img:first-of-type:hover {
+    > :not(.badge):nth-last-child(2):hover {
         z-index: 4;
         transform: translateY(-2%) scale(1.04);
         box-shadow: 6px 6px 16px rgba(0, 0, 0, .35);
     }
 
-    > img:last-of-type:hover {
+    > :not(.badge):last-child:hover {
         z-index: 4;
         transform: translate(13%, 13%) rotate(0deg) scale(1.06);
         box-shadow: 6px 6px 16px rgba(0, 0, 0, .35);

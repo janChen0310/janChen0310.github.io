@@ -45,6 +45,20 @@ Jiahang Cao\*, **Zhuoyang Chen**\*, Kun Wu, Yulin Li, Hongliang Lu, Jiaxu Wang, 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div class='media-stack'><div class="badge">CoRL Workshop 2026</div><video src='images/object-centric_residual/Learning_Object_Residual.mp4' poster='images/object-centric_residual/Learning_Object_Residual_poster.jpg' width="800" height="450" autoplay muted loop playsinline aria-label="Animation of the object-centric residual method"></video><img src='images/object-centric_residual/workflow.png' alt="Workflow of the real-to-sim-to-real residual framework"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Learning Contact Residuals for In-Hand Manipulation Transfer](files/CoRL_2026_Workshop_Learning_Contact_Residuals_for_In_Hand_Manipulation_Transfer.pdf)
+
+**Zhuoyang Chen**, Jianshu Hu, Yutong Ban
+
+*CoRL 2026 Workshop on Bringing Physics Simulation and World Models Together for Robotic Manipulation*
+
+[**Paper**](files/CoRL_2026_Workshop_Learning_Contact_Residuals_for_In_Hand_Manipulation_Transfer.pdf)
+- We introduce an **object-centric neural residual dynamics model** that maps surface geometry and contact features to rotation-equivariant momentum corrections, within a **real-to-sim-to-real framework**: the residual is learned from teacher-forced replay of target trajectories, then frozen to augment the simulator for policy fine-tuning. Sim-to-sim experiments (MuJoCo/MJWarp → Genesis) on the **Allegro and Wuji hands** show improved transfer across object geometries, including unseen shapes, and reuse of the residual from reorientation to in-hand rotation.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div class='media-stack'><div class="badge">Bioinspir. Biomim. 2026</div><img src='images/csm/csm_demo_mujoco.gif' alt="sym"><img src='images/csm/csmultipod_diagram.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
