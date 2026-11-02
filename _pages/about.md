@@ -20,9 +20,9 @@ redirect_from:
 # 👋 Hi! I'm Zhuoyang(Alex) Chen
 {: .typing-title}
 
-I am an incoming MSE Robotics student at the **University of Pennsylvania**. I earned my B.S. in Computer Engineering from the **University of Michigan**, and my B.S.E. in Mechanical Engineering from **Shanghai Jiao Tong University**.
+I am a first-year MSE Robotics student at the **University of Pennsylvania**. I earned my B.S. in Computer Engineering from the **University of Michigan**, and my B.S.E. in Mechanical Engineering from **Shanghai Jiao Tong University**.
 
-I am currently working with Prof. [Yutong Ban](https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/75745/) as a research intern on dexterous manipulation, and with [Jiahang Cao](https://sagecao1125.github.io/) on robot learning for manipulation. Previously, I worked as an undergraduate researcher with Prof. [Shai Revzen](https://eecs.engin.umich.edu/people/revzen-shai/) on bio-inspired robotics, and with Prof. [Ram Vasudevan](https://me.engin.umich.edu/people/faculty/ramanarayan-vasudevan/) as a [SURE](https://sure.engin.umich.edu/) undergraduate research assistant on mobile manipulation.
+Previously, I worked with Prof. [Yutong Ban](https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/75745/) as a research intern on dexterous manipulation, and with [Jiahang Cao](https://sagecao1125.github.io/) on robot learning for manipulation. I also worked as an undergraduate researcher with Prof. [Shai Revzen](https://eecs.engin.umich.edu/people/revzen-shai/) on bio-inspired robotics, and with Prof. [Ram Vasudevan](https://me.engin.umich.edu/people/faculty/ramanarayan-vasudevan/) as a [SURE](https://sure.engin.umich.edu/) undergraduate research assistant on mobile manipulation.
 
 My research interests are **robot learning for dexterous / mobile manipulation** and **Sim2Real**. 
 <!-- I am **actively seeking PhD positions starting Fall 2027** — feel free to reach out! -->
@@ -100,5 +100,5 @@ Jiahang Cao\*, **Zhuoyang Chen**\*, Kun Wu, Yulin Li, Hongliang Lu, Jiaxu Wang, 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2026.05 - present*, Research Intern, Shanghai Institute for Physical Artificial Intelligence and Robotics (PAIR), Shanghai, China. Advisors: Prof. [Yutong Ban](https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/75745/) and Dr. Jianshu Hu. Learning object-centric contact residual dynamics in a Real2Sim2Real framework to transfer in-hand manipulation policies across simulators and to real hardware (Allegro and Wuji hands).
+- *2026.05 - 2026.09*, Research Intern, Shanghai Institute for Physical Artificial Intelligence and Robotics (PAIR), Shanghai, China. Advisors: Prof. [Yutong Ban](https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/75745/) and Dr. Jianshu Hu. Learning object-centric contact residual dynamics in a Real2Sim2Real framework to transfer in-hand manipulation policies across simulators and to real hardware (Allegro and Wuji hands).
 - *2025.05 - 2026.08*, Research Assistant ([UM-SURE](https://sure.engin.umich.edu/)), ROAHM Lab, University of Michigan, Ann Arbor. Advisors: Prof. [Ram Vasudevan](https://me.engin.umich.edu/people/faculty/ramanarayan-vasudevan/) and Dr. Yue Hu. Built a ROS 2 / MoveIt 2 stack, an Isaac Lab RL environment, and an imitation-learning pipeline for the Tidybot++ mobile manipulator (Diffusion Policy, OpenVLA, π0 / π0.5); contributed to Real2Sim2Real articulated-object reconstruction; developed a neural base-pose critic for long-horizon navigation.
